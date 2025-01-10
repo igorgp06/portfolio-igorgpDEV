@@ -48,8 +48,6 @@ Para dúvidas, sugestões ou qualquer outra questão, envie um e-mail para: cont
 
 ## Status
 
-portifolio-igorgpDEV
-
 <div align="start" style="height: 24px">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Figorgp06.github.io%2Fportifolio-igorgpDEV%2F&up_message=ONLINE&up_color=blue&down_message=OFFLINE&down_color=red&style=for-the-badge">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/igorgp06/portifolio-igorgpDEV?style=for-the-badge&color=orange">

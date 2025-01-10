@@ -181,3 +181,13 @@
         transition: all 0.4s ease-in-out;
     }
 }
+
+@media (max-width: 404px) {
+    .navbar .logo {
+        font-size: 1.4rem;
+    }
+
+    .logo .destaque-dev {
+        font-size: 1.4rem;
+    }
+}
