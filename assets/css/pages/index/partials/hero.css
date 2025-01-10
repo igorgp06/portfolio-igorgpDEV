@@ -12,3 +12,40 @@
     background-color: var(--thistle);
 }
 
+.hero-title {
+    color: black;
+    font-size: 3.3rem;
+    font-weight: 650;
+    padding: 0;
+}
+
+.hero-subtitle {
+    color: black;
+    font-size: 2.3rem;
+    font-weight: 550;
+    padding: 0;
+    margin: 0.5rem 0 0.5rem 0; 
+}
+
+.hero-description {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0.5rem 0 0.5rem 0; 
+}
+
+.hero-container-button-cv {
+    margin-top: 0.7rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-container-button-cv a {
+    text-decoration: none;
+    color: black;
+    font-weight: 460;
+    font-size: 1.1rem;
+    background-color: var(--mediumPurple);
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+}
