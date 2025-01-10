@@ -9,6 +9,10 @@
     border: none;
 }
 
+section:not(:first-of-type) {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
