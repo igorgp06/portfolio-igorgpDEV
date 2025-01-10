@@ -1,1 +1,40 @@
 # potifolio-igorgpDEV
+
+Meu portifólio pessoal e profissional. Aqui você encontrará informações de como está organizada a estrutura do seu controle de versões, acompanhar o desenvolvimento do portifólio, ver os termos da licença, como entrar em contato comigo e ver os códigos do portifólio e acompanhar as mais recentes atualizações e noticías.
+
+## Controle Versional (GIT)
+
+O projeto segue o seguinte padrão de sufixos:
+
+| Sufixo   | Descrição                                                              |
+| -------- | ---------------------------------------------------------------------- |
+| [ADD]    | Adição de algo novo para o projeto, sem remoções consideráveis.        |
+| [WORK]   | Versão em desenvolvimento, sujeita a alterações.                       |
+| [FINAL]  | Indica a versão final de uma seção (exemplo: "[FINAL] 1.6").           |
+| [DEL]    | Remoção de pastas, linhas de código, imagens, etc.                     |
+| [UPDATE] | Melhorias de performance, refatorações, etc.                           |
+| [PATCH]  | Correção de algo que funcionava, mas de forma inadequada.              |
+| [INFO]   | Alterações de informações, como README ou conteúdo textual do site.    |
+| [FIX]    | Correção de falhas.                                                    |
+| [DEPLOY] | Relacionado ao primeiro odeploy do projeto. Pode ser usado uma vez só. |
+
+### Tags referentes às seções
+
+Cada seção está sujeita à sua própria versão, porém os detalhes ainda não foram a analisados e confirmados.
+
+## Bugs
+
+A seção de bugs referentes ao projeto vai ser encontrada aqui. Todos os problemas encontrados ao decorrer de seu desenvolvimento serão listados aqui com o seu ID, a referente versão em que foi documentado e em qual versão foi solucionado.
+
+## Licença
+
+Este repositório e tudo derivado do mesmo, sendo código ou imagens, está sob uma licença personalizada que permite apenas a **visualização** do código.   
+Para mais detalhes, consulte o arquivo [`LICENSE`](./LICENSE) ou entre em contato pelo e-mail: contateme.igorgp@gmail.com.
+
+## Contato
+
+Para dúvidas, sugestões ou qualquer outra questão, envie um e-mail para: contateme.igorgp@gmail.com.  
+
+## Desenvolvedor Responsável
+
+**Igor Gonçalves | DEV** ou [**igorgp06**](https://github.com/igorgp06)
