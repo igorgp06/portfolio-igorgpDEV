@@ -23,8 +23,8 @@ O projeto segue o seguinte padrão de sufixos:
 Cada seção está sujeita à sua própria versão, sendo elas:
 
 - **1.0**: Seção header. 
-- **2.0**: ??? 
-- **3.0**: ??? 
+- **2.0**: Seção hero. 
+- **3.0**: Seção sobre. 
 - **4.0**: ??? 
 - **5.0**: ??? 
 - **6.0**: ???
