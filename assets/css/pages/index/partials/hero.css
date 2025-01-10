@@ -40,12 +40,52 @@
     transition: all 0.3s ease-in-out;
 }
 
-.hero-container-button-cv a {
-    text-decoration: none;
+.hero-btn-container .hero-btn-a {
+    padding: 0.5rem;
+    background-color: var(--plum);
     color: black;
-    font-weight: 460;
-    font-size: 1.1rem;
-    background-color: var(--mediumPurple);
-    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+    font-weight: 475;
     border-radius: 5px;
+    text-align: center;
+    width: auto;
+    min-width: 150px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btn-container .hero-btn-a:hover {
+    background-color: var(--mediumPurple);
+    color: white;
+    box-shadow: 2px 2px 0 var(--royalBlue);
+    transform: scale(1.05);
+}
+
+.hero-btn-container .hero-btn-a:active {
+    transform: scale(1.0);
+    background-color: var(--mediumPurple);
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btn-container .hero-btn-a.clicked {
+    transform: scale(1.5);
+    background-color: var(--floralWhite);
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#particles-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#particlesJS {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 50%;
 }

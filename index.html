@@ -4,8 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igor Gonçalves | DEV</title>
     <link rel="shortcut icon" href="assets/static/favicon/favicon.ico" type="image/x-icon">
+
+    <title>Igor Gonçalves | DEV</title>
+    <meta name="description"
+        content="IG Solutions: Desenvolvimento de soluções digitais inovadoras para aumentar sua presença online. criação de sites, e-commerce, manutenção de sites, suporte aos clientes e muito mais!. Transforme suas ideias em realidade com a IG Solutions.">
+
+    <!-- particles.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- css -->
     <link rel="stylesheet" href="assets/css/pages/index/index.css">
@@ -55,21 +63,23 @@
                             <h2 class="hero-subtitle">IG Solutions | <span class="animated-text"></span></h2>
                         </div>
                         <p class="hero-description">
-                            Olá, me chamo Igor Gonçalves e sou um desenvolvedor web freelancer. A mais de 2 anos criando 
-                            soluções inovadoras e eficientes para o mundo digital. Com as minhas experiências e habilidades, sou capaz
+                            Olá, me chamo Igor Gonçalves e sou um desenvolvedor web freelancer. A mais de 2 anos
+                            criando
+                            soluções inovadoras e eficientes para o mundo digital. Com as minhas experiências e
+                            habilidades, sou capaz
                             de soluções de alta qualidade e eficiência.
                         </p>
-                        <div class="hero-container-button-cv">
+                        <div class="hero-btn-container">
                             <a href="assets/others/pdfs/Curriculo-Igor-Gonçalves-DEV.pdf"
-                                download="Curriculo-Igor-Gonçalves-DEV.pdf">
+                                download="Curriculo-Igor-Gonçalves-DEV.pdf" class="hero-btn-a">
                                 Baixe meu currículo.
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="image"> <!-- TODO: fazer a animação das particulas com js -->
-                        <div class="particles" id="particles"></div>
+                    <div class="particles-container">
+                        <div class="particlesJS" id="particlesJS"></div>
                     </div>
                 </div>
             </div>
@@ -88,6 +98,8 @@
     <!-- js -->
     <script src="assets/js/index/header.js"></script>
     <script src="assets/js/index/hero-animated-text.js"></script>
+    <script src="assets/js/index/particles.js"></script>
+    <script defer src="assets/js/index/hero-btn.js"></script>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
