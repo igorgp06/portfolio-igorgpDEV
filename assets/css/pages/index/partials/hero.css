@@ -17,6 +17,7 @@
     font-size: 3.3rem;
     font-weight: 650;
     padding: 0;
+    text-align: center;
 }
 
 .hero-subtitle {
@@ -25,6 +26,7 @@
     font-weight: 550;
     padding: 0;
     margin: 0.5rem 0 0.5rem 0; 
+    text-align: center;
 }
 
 .hero-description {
@@ -32,7 +34,8 @@
     font-size: 1.1rem;
     font-weight: 500;
     padding: 0;
-    margin: 0.5rem 0 0.5rem 0; 
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: center;
 }
 
 .hero-container-button-cv {
@@ -40,16 +43,23 @@
     transition: all 0.3s ease-in-out;
 }
 
+.hero-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .hero-btn-container .hero-btn-a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
     padding: 0.5rem;
     background-color: var(--plum);
-    color: black;
-    text-decoration: none;
-    font-weight: 475;
     border-radius: 5px;
-    text-align: center;
-    width: auto;
-    min-width: 150px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -88,4 +98,72 @@
     height: 100%;
     background-color: transparent;
     border-radius: 50%;
+}
+
+@media (max-width: 366px) {
+    .hero-btn-a {
+        width: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-left-content .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-left-content .hero-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .hero-left-content .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .hero-btn-a {
+        width: auto;
+        margin-bottom: 5rem;
+    }
+
+    #particles-container {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-left-content {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-btn-a {
+        width: auto;
+        margin-bottom: 0 0.5rem;
+    }
+
+    .hero-text-container {
+        margin-top: 2rem;
+    }
+
+    .particles-container {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1399px) {
+    .hero-description {
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-btn-a {
+        width: auto;
+    }
 }

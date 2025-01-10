@@ -31,7 +31,9 @@ Cada seção está sujeita à sua própria versão, sendo elas:
 
 ## Bugs
 
-A seção de bugs referentes ao projeto vai ser encontrada aqui. Todos os problemas encontrados ao decorrer de seu desenvolvimento serão listados aqui com o seu ID, a referente versão em que foi documentado e em qual versão foi solucionado.
+Problemas/Bugs encontrados ao decorrer de seu desenvolvimento serão listados aqui com o seu ID, uma breve descrição, a versão em que foi encontrado e em qual versão foi solucionado.
+
+- [x] Bug 1: os elementos da seção hero não estão lado a lado e sim um sob o outro em telas grandes. Bug encontrado na versão 2.2, resolvido na versão 2.3.
 
 ## Licença
 
