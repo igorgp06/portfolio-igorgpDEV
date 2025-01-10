@@ -20,7 +20,14 @@ O projeto segue o seguinte padrão de sufixos:
 
 ### Tags referentes às seções
 
-Cada seção está sujeita à sua própria versão, porém os detalhes ainda não foram a analisados e confirmados.
+Cada seção está sujeita à sua própria versão, sendo elas:
+
+- **1.0**: Seção header. 
+- **2.0**: ??? 
+- **3.0**: ??? 
+- **4.0**: ??? 
+- **5.0**: ??? 
+- **6.0**: ???
 
 ## Bugs
 
@@ -38,3 +45,14 @@ Para dúvidas, sugestões ou qualquer outra questão, envie um e-mail para: cont
 ## Desenvolvedor Responsável
 
 **Igor Gonçalves | DEV** ou [**igorgp06**](https://github.com/igorgp06)
+
+## Status
+
+portifolio-igorgpDEV
+
+<div align="start" style="height: 24px">
+    <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Figorgp06.github.io%2Fportifolio-igorgpDEV%2F&up_message=ONLINE&up_color=blue&down_message=OFFLINE&down_color=red&style=for-the-badge">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/igorgp06/portifolio-igorgpDEV?style=for-the-badge&color=orange">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/igorgp06/portifolio-igorgpDEV?style=for-the-badge">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igorgp06/portifolio-igorgpDEV?style=for-the-badge">
+</div>
