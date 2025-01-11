@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* about */
+
+.about {
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title {
+    color: black;
+    font-size: 3.3rem;
+    font-weight: 650;
+    padding: 0;
+    text-align: center;
+}
+
+.tech-container {
+    margin: 0;
+    padding: 0;
+}
+
+.tech-container .devicon-i {
+    color: black;
+    font-size: 5.7rem;
+}
+

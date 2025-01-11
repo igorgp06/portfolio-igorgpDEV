@@ -33,7 +33,9 @@ Cada seção está sujeita à sua própria versão, sendo elas:
 
 Problemas/Bugs encontrados ao decorrer de seu desenvolvimento serão listados aqui com o seu ID, uma breve descrição, a versão em que foi encontrado e em qual versão foi solucionado.
 
-- [x] Bug 1: os elementos da seção hero não estão lado a lado e sim um sob o outro em telas grandes. Bug encontrado na versão 2.2, resolvido na versão 2.3.
+- [x] Bug 1: os elementos da seção hero não estão lado a lado e sim um sob o outro em telas grandes. Bug encontrado na versão 2.2, resolvido na versão 2.3.    
+     
+- [ ] Bug 2: em dispositivos mobile quando clicamos na logo ela some e o menu fica no lugar da logo. Bug encontrado na versão 2.4, ainda não resolvido.
 
 ## Licença
 
