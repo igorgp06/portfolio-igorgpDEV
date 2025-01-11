@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
             toggleButton.style.display = 'none';
         } else {
             toggleButton.style.display = 'flex';
+            closeIcon.style.display = 'none';
+            navbarLinks.classList.remove('active');
         }
     };
 

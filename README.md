@@ -35,7 +35,11 @@ Problemas/Bugs encontrados ao decorrer de seu desenvolvimento serão listados aq
 
 - [x] Bug 1: os elementos da seção hero não estão lado a lado e sim um sob o outro em telas grandes. Bug encontrado na versão 2.2, resolvido na versão 2.3.    
      
-- [ ] Bug 2: em dispositivos mobile quando clicamos na logo ela some e o menu fica no lugar da logo. Bug encontrado na versão 2.4, ainda não resolvido.
+- [x] Bug 2: em dispositivos mobile quando clicamos na logo ela some e o menu fica no lugar dela. Bug encontrado na versão 2.4, resolvido na versão 3.1.
+     
+- [x] Bug 3: os ícones da seção `aboout` não estão com o tamanho correto no FireFox. Bug encontrado na versão 3.0, resolvido na versão 3.1. 
+
+- [ ] Bug 4: os elementos da seção `about` "vazam" da sua seção em telas menores q 576px. Bug encontrado na versão 3.0, ainda não resolvido.
 
 ## Licença
 

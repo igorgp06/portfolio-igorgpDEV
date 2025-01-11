@@ -183,11 +183,32 @@
 }
 
 @media (max-width: 404px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
     .navbar .logo {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .logo .destaque-dev {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+
+    .toggle-button {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    @media (hover: none) {
+        .navbar .logo:hover {
+            font-size: unset;
+            font-weight: unset;
+        }
     }
 }

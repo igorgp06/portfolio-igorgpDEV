@@ -22,10 +22,64 @@
 .tech-container {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.tech-container .devicon-i {
+.tech-item {
+    flex: 1 1 15%;
+    text-align: center;
+    margin: 10px;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    transition: transform 0.4s ease-in-out;
+}
+
+.icon-wrapper:hover {
+    transform: scale(1.04);
+}
+
+.about .devicon-i {
     color: black;
-    font-size: 5.7rem;
+    font-size: 5rem;
+    transition: transform 0.4s ease-in-out, filter 0.3s ease-in-out;
 }
 
+.about .devicon-i:hover {
+    transform: scale(1.04);
+    filter: drop-shadow(2px 2px 0 var(--mediumPurple));
+}
+
+.tech-name {
+    opacity: 0;
+    transform: translateY(-10px);
+    font-size: 1rem;
+    font-weight: 650;
+    color: black;
+    margin: 0.5rem auto;
+    height: 1rem;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.tech-item:hover .tech-name {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-description {
+        font-size: 0.9rem;
+    }
+}
