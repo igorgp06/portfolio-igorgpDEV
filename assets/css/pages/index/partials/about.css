@@ -70,6 +70,35 @@
     transform: translateY(0);
 }
 
+@media (max-width: 767px) {
+    .about {
+        height: auto;
+    }
+
+    .about-title {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .tech-container {
+        gap: 0.5rem;
+    }
+
+    .tech-item {
+        flex: 1 1 30%;
+        margin: 5px;
+    }
+
+    .about .devicon-i {
+        font-size: 3.5rem;
+    }
+
+    .tech-name {
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 768px) {
     .about {
         flex-direction: column;
