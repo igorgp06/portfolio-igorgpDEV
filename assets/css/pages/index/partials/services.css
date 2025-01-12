@@ -3,9 +3,9 @@
 /* services */
 
 .services {
-    margin: 0;
-    padding: 0;
-    height: 95vh;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,17 +22,19 @@
     height: 100%;
     border-radius: 20px;
     gap: 1rem;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
     overflow: hidden;
     text-align: center;
     transition: all 0.5s ease-in-out;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 
 .card-title {
@@ -64,5 +66,52 @@
     font-size: 3.3rem;
     color: var(--floralWhite);
     background-color: var(--plum);
-    box-shadow: 0px 0px 0px 200px var(--mediumPurple);
+    box-shadow: 0px 0px 0px 350px var(--mediumPurple);
+}
+
+@media (max-width: 1399px) {
+    .card-title {
+        font-size: 1.3rem;
+    }
+    
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .card i {
+        width: 75px;
+        height: 75px;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .card {
+        min-height: 200px;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding: 2rem 1rem;
+    }
+
+    .card {
+        padding: 0.5rem;
+        min-height: 250px;
+    }
+
+    .card i {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+
+    .card:hover i {
+        font-size: 2.4rem;
+    }
 }
