@@ -13,10 +13,11 @@
 
 .about-title {
     color: black;
-    font-size: 3.3rem;
-    font-weight: 650;
+    font-size: 3.5rem;
+    font-weight: 700;
     padding: 0;
     text-align: center;
+    margin-top: 0;
 }
 
 .tech-container {
@@ -51,7 +52,7 @@
 
 .about .devicon-i:hover {
     transform: scale(1.04);
-    filter: drop-shadow(2px 2px 0 var(--mediumPurple));
+    filter: drop-shadow(1px 1px 0 var(--royalBlue));
 }
 
 .tech-name {
@@ -70,15 +71,64 @@
     transform: translateY(0);
 }
 
-@media (max-width: 767px) {
+.about-text-content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about .about-emphasis {
+    color: var(--mediumPurple);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.about-description-text {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 425;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.about-soft-skills-container li {
+    font-size: 1.2rem;
+    font-weight: 425;
+    width: 100%;
+    color: black;
+    text-align: left;
+}
+
+.about-soft-skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about-soft-skills ul {
+    padding: 1rem;
+    margin: 0.4rem;
+}
+
+.about-soft-skills i {
+    color: var(--royalBlue);
+}
+
+@media (max-width: 991px) {
     .about {
         height: auto;
+        flex-direction: column;
+        padding: 1rem;
     }
 
     .about-title {
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+        font-size: 1.8rem;
+        margin: 1rem 0;
     }
 
     .tech-container {
@@ -86,29 +136,46 @@
     }
 
     .tech-item {
-        flex: 1 1 30%;
+        flex: 1 1 calc(33.333% - 1rem);
+        max-width: calc(33.333% - 1rem);
         margin: 5px;
     }
 
     .about .devicon-i {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 
     .tech-name {
         font-size: 0.9rem;
     }
+
+    .about-text-content {
+        margin-top: 1rem;
+    }
+
+    .about-soft-skills {
+        gap: 1rem;
+    }
 }
 
-@media (max-width: 768px) {
-    .about {
+@media (max-width: 570px) {
+    .about-soft-skills {
         flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-item {
+        flex: 1 1 calc(50% - 0.5rem);
+        max-width: calc(50% - 0.5rem);
     }
 
-    .about-title {
-        font-size: 2rem;
+    .about .devicon-i {
+        font-size: 2.5rem;
     }
 
-    .about-description {
-        font-size: 0.9rem;
+    .tech-name {
+        font-size: 0.8rem;
     }
 }
