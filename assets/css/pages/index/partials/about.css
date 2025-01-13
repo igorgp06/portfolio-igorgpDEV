@@ -3,12 +3,21 @@
 /* about */
 
 .about {
-    margin: 0;
-    padding: 0;
-    height: 95vh;
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about .section-title {
+    margin-bottom: 3rem;
+    margin-top: 0;
 }
 
 .tech-container {
@@ -149,10 +158,19 @@
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 575px) {
+    .tech-container>* {
+        display: none;
+    }
+
+    .about-soft-skills {
+        gap: 0;
+    }
+}
+
+@media (max-width: 526px) {
     .about-soft-skills {
         flex-direction: column;
-        gap: 0;
     }
 }
 
@@ -168,5 +186,16 @@
 
     .tech-name {
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .about .section-title {
+        font-size: 2rem;
+        margin-top: 0.3rem;
+    }
+
+    .about-text-content {
+        margin-top: 0.5rem;
     }
 }

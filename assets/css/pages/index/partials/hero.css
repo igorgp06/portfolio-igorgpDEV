@@ -3,12 +3,16 @@
 /* hero */
 
 .hero {
-    margin: 0;
-    padding: 0;
-    height: 95vh;
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto;
+    min-height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     background-color: var(--thistle);
 }
 
@@ -17,8 +21,12 @@
     font-size: 2.3rem;
     font-weight: 550;
     padding: 0;
-    margin: 0.5rem 0 0.5rem 0; 
+    margin: 0.5rem;
+    min-height: 2.5rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
 
 .hero-description {
@@ -96,9 +104,19 @@
     .hero-description {
         margin-bottom: 0.5rem;
     }
-    
+
     .hero-btn-a {
         width: auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .section-title {
+        font-size: 2.7rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2rem;
     }
 }
 
@@ -130,6 +148,29 @@
     }
 }
 
+@media (max-width: 853px) {
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-with: 768px) {
+    .hero-subtitle {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .hero .animated-text {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+}
+
 @media (max-width: 576px) {
     .hero-left-content .hero-title {
         font-size: 2.2rem;
@@ -145,15 +186,25 @@
 
     .hero-btn-a {
         width: auto;
-        margin-bottom: 5rem;
     }
 
     #particles-container {
-        margin-top: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
-@media (max-width: 366px) {
+@media (max-width: 375px) {
+    .hero .section-title {
+        font-size: 1.8rem;
+        margin-top: 0.3rem;
+    }
+
+    .animated-text {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
     .hero-btn-a {
         width: auto;
         margin-bottom: 0.5rem;

@@ -41,6 +41,10 @@ Problemas/Bugs encontrados ao decorrer de seu desenvolvimento serão listados aq
 
 - [x] Bug 4: os elementos da seção `about` "vazam" da sua seção em telas menores q 576px. Bug encontrado na versão 3.0, resolvido na versão 3.2.
 
+- [x] Bug 5: nas seções `hero` e `about` no dispositivos mobile os títulos das seções ficam próximos demais ao limite, as vezes vazando da sua seção. Bug encontrado na versão 4.3, resolvido na versão 4.4.
+
+- [ ] Bug 6: o botão na seção `hero` tem um estado ativo após o clique nas versões mobile. Bug encontrado na versão 4.3, ainda não resolvido.
+
 ## Licença
 
 Este repositório e tudo derivado do mesmo, sendo código ou imagens, está sob uma licença personalizada que permite apenas a **visualização** do código.   

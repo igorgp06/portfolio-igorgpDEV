@@ -29,11 +29,26 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
-    function insertAnimatin() {
+    function insertAnimation() {
         textAnimationSpan.textContent = textArray[textArrayIndex];
         charIndex = textArray[textArrayIndex].length;
         setTimeout(erase, newTextDelay);
     };
     
-    insertAnimatin();
+    function adjustSize() {
+        const animatedText = document.querySelector('.animated-text');
+        const parentWidth = animatedText.parentElement.offsetWidth;
+
+        animatedText.style.fontSize = '2.2rem';
+        animatedText.style.fontWeight = '550';
+        if (animatedText.scrollWidth > parentWidth) {
+            animatedText.style.fontSize = '1.5rem';
+            animatedText.style.fontWeight = '500';
+        }
+    };
+
+    window.addEventListener('resize', adjustSize);
+    document.addEventListener('DOMContentLoaded', adjustSize);
+
+    insertAnimation();
 });
