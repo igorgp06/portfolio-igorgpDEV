@@ -38,11 +38,6 @@
     text-align: center;
 }
 
-.hero-container-button-cv {
-    margin-top: 0.7rem;
-    transition: all 0.3s ease-in-out;
-}
-
 .hero-btn-container {
     display: flex;
     justify-content: center;
@@ -50,7 +45,7 @@
     margin-top: 1rem;
 }
 
-.hero-btn-container .hero-btn-a {
+.hero-btn-container .default-button {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -63,21 +58,21 @@
     transition: all 0.3s ease-in-out;
 }
 
-.hero-btn-container .hero-btn-a:hover {
+.hero-btn-container .default-button:hover {
     background-color: var(--mediumPurple);
     color: white;
     box-shadow: 2px 2px 0 var(--royalBlue);
     transform: scale(1.05);
 }
 
-.hero-btn-container .hero-btn-a:active {
+.hero-btn-container .default-button:active {
     transform: scale(1.0);
     background-color: var(--mediumPurple);
     box-shadow: none;
     transition: all 0.3s ease-in-out;
 }
 
-.hero-btn-container .hero-btn-a.clicked {
+.hero-btn-container .default-button.clicked {
     transform: scale(1.5);
     background-color: var(--floralWhite);
     box-shadow: none;
@@ -105,7 +100,7 @@
         margin-bottom: 0.5rem;
     }
 
-    .hero-btn-a {
+    .hero-btn-container .default-button {
         width: auto;
     }
 }
@@ -134,7 +129,7 @@
         font-size: 1rem;
     }
 
-    .hero-btn-a {
+    .hero-btn-container .default-button {
         width: auto;
         margin-bottom: 0 0.5rem;
     }
@@ -184,7 +179,7 @@
         font-size: 0.9rem;
     }
 
-    .hero-btn-a {
+    .hero-btn-container .default-button {
         width: auto;
     }
 
@@ -205,14 +200,14 @@
         font-weight: 500;
     }
 
-    .hero-btn-a {
+    .hero-btn-container .default-button {
         width: auto;
         margin-bottom: 0.5rem;
     }
 }
 
 @media (hover: none) {
-    .hero-btn-container .hero-btn-a:hover {
+    .hero-btn-container .default-button:hover {
         background-color: var(--plum);
         color: black;
         box-shadow: none;

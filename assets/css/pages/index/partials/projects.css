@@ -50,11 +50,10 @@
 
 .projects .card .card-title {
     color: black;
-    font-size: 1.5rem;
-    font-weight: 550;
+    font-size: 1.7rem;
+    font-weight: 600;
     padding: 0;
     margin: 0.5rem;
-    min-height: 2.5rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -64,41 +63,42 @@
 .projects .card .card-text {
     color: black;
     font-size: 1.2rem;
-    font-weight: 425;
+    font-weight: 450;
     margin-bottom: 0.5rem;
     text-align: center;
 }
 
-.project-btn {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
+.projects .default-button {
     color: black;
     font-size: 1.1rem;
     font-weight: 600;
     padding: 0.5rem;
-    background-color: var(--plum);
     border-radius: 5px;
+    background-color: var(--plum);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
     transition: all 0.3s ease-in-out;
 }
 
-.project-btn:hover {
-    background-color: var(--mediumPurple);
+.projects .default-button:hover {
     color: white;
+    background-color: var(--mediumPurple);
     box-shadow: 2px 2px 0 var(--royalBlue);
     transform: scale(1.05);
 }
 
-.project-btn:active {
+.projects .default-button:active {
     transform: scale(1.0);
-    background-color: var(--mediumPurple);
     box-shadow: none;
+    background-color: var(--mediumPurple);
     transition: all 0.3s ease-in-out;
 }
 
-.project-btn.clicked {
+.projects .default-button.clicked {
     transform: scale(1.5);
     background-color: var(--floralWhite);
     box-shadow: none;
     transition: all 0.3s ease-in-out;
 }
+

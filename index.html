@@ -77,7 +77,7 @@
                         </p>
                         <div class="hero-btn-container">
                             <a href="assets/others/pdfs/Curriculo-Igor-Gonçalves-DEV.pdf"
-                                download="Curriculo-Igor-Gonçalves-DEV.pdf" class="hero-btn-a">
+                                download="Curriculo-Igor-Gonçalves-DEV.pdf" class="default-button">
                                 Baixe meu currículo.
                             </a>
                         </div>
@@ -294,7 +294,7 @@
     <section class="projects" id="projects">
         <div class="container">
             <h2 class="section-title">Projetos</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2 g-4">
                 <div class="col">
                     <div class="card">
                         <img src="assets/static/images/index/login-system-interface.png" class="card-img"
@@ -302,10 +302,12 @@
                         <div class="card-body">
                             <h3 class="card-title">Login System</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, expedita vitae.
-                                Eligendi, laudantium.
+                                Um sistema de login usando o customtkinter como interface gráfica enquanto
+                                usa um sistema de criptografia HASH para armazenar as senhas dos usuários com SQLite3. 
                             </p>
-                            <a href="https://github.com/igorgp06/Login-System" target="_blank" class="project-btn">Veja no GitHub</a>
+                            <div>
+                                <a href="https://github.com/igorgp06/Login-System" target="_blank" class="default-button">Veja no GitHub</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -315,36 +317,13 @@
                             alt="interface da REST API com java e spring" loading="lazy">
                         <div class="card-body">
                             <h3 class="card-title">Java Spring REST API</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, expedita vitae.
-                            Eligendi, laudantium.
-                            </p>
-                            <a href="https://github.com/igorgp06/RestAPI-com-Java-e-SpringBoot" target="_blank" class="project-btn">Veja no GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="#" class="card-img" alt="#" loading="lazy">
-                        <div class="card-body">
-                            <h3 class="card-title">Ateliê da Ihara</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, expedita vitae.
-                                Eligendi, laudantium.
+                                Uma REST API com Java e Spring, usando o banco de dados H2 para fazer a relação de funcionários com seus
+                                respectivos departamentos.
                             </p>
-                            <a href="#" class="project-btn">...</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="#" class="card-img" alt="#" loading="lazy">
-                        <div class="card-body">
-                            <h3 class="card-title">Natur Colab</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, expedita vitae.
-                                Eligendi, laudantium.
-                            </p>
-                            <a href="#" class="project-btn">...</a>
+                            <div>
+                                <a href="https://github.com/igorgp06/RestAPI-com-Java-e-SpringBoot" target="_blank" class="default-button">Veja no GitHub</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -358,10 +337,10 @@
 
 
     <!-- js -->
-    <script src="assets/js/index/header.js"></script>
-    <script src="assets/js/index/hero-animated-text.js"></script>
-    <script src="assets/js/index/particles.js"></script>
-    <script defer src="assets/js/index/hero-btn.js"></script>
+    <script defer src="assets/js/index/header.js"></script>
+    <script defer src="assets/js/index/hero-animated-text.js"></script>
+    <script defer src="assets/js/index/particles.js"></script>
+    <script defer src="assets/js/global/btn-config.js"></script>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
