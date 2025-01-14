@@ -210,3 +210,12 @@
         margin-bottom: 0.5rem;
     }
 }
+
+@media (hover: none) {
+    .hero-btn-container .hero-btn-a:hover {
+        background-color: var(--plum);
+        color: black;
+        box-shadow: none;
+        transform: none;
+    }
+}

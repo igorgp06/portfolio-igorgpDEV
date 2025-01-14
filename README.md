@@ -25,9 +25,10 @@ Cada seção está sujeita à sua própria versão, sendo elas:
 - **1.0**: Seção header. 
 - **2.0**: Seção hero. 
 - **3.0**: Seção sobre. 
-- **4.0**: Seção de serviços. 
-- **5.0**: ??? 
-- **6.0**: ???
+- **4.0**: Seção serviços. 
+- **5.0**: Seção projetos 
+- **6.0**: Seção contato.
+- **7.0**: Seção footer.
 
 ## Bugs
 
@@ -43,7 +44,7 @@ Problemas/Bugs encontrados ao decorrer de seu desenvolvimento serão listados aq
 
 - [x] Bug 5: nas seções `hero` e `about` no dispositivos mobile os títulos das seções ficam próximos demais ao limite, as vezes vazando da sua seção. Bug encontrado na versão 4.3, resolvido na versão 4.4.
 
-- [ ] Bug 6: o botão na seção `hero` tem um estado ativo após o clique nas versões mobile. Bug encontrado na versão 4.3, ainda não resolvido.
+- [x] Bug 6: o botão na seção `hero` tem um estado ativo após o clique nas versões mobile. Bug encontrado na versão 4.3, resolvido na versão 4.5.
 
 ## Licença
 
