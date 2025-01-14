@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('.default-button');
     buttons.forEach(button => {
         button.addEventListener('click', () => {
@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 200);
         });
 
-        buttons.addEventListener('touch', () => {
-            button.classList.remove('hover');
-        })
+        /* TODO: fazer a lógica q analisa o tamanho da tela */
     })
 })

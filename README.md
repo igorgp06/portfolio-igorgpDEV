@@ -46,6 +46,8 @@ Problemas/Bugs encontrados ao decorrer do desenvolvimento do projeto serão list
 
 - [x] Bug 6: o botão na seção `hero` tem um estado ativo após o clique nas versões mobile. Bug encontrado na versão 4.3, resolvido na versão 4.5.
 
+- [ ] Bug 7: a lógica geral dos botões está quebrada, fazendo com que o JavaScript não tenha o efeito desejado nos dispositivos mobile. Bug encontrado na versão 5.1, ainda não resolvido.
+
 ## Licença
 
 Este repositório e tudo derivado do mesmo, sendo código ou imagens, está sob uma licença personalizada que permite apenas a **visualização** do código.   

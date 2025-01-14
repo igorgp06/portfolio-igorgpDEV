@@ -102,3 +102,18 @@
     transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 991px) {
+    .projects .card-img {
+        width: 325px;
+        height: auto;
+    }
+
+    .projects .card .card-title {
+        font-size: 1.5rem;
+    }
+
+    .projects .card .card-text {
+        font-size: 1rem;
+        font-weight: 425;
+    }
+}
