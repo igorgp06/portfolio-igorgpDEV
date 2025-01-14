@@ -3,7 +3,7 @@ document.querySelectorAll('.hero-btn-a').forEach(button => {
         button.classList.add('clicked');
         setTimeout(() => {
             button.classList.remove('clicked');
-        }, 225);
+        }, 225); /* TODO: esse código deve ser global para todos os botões do site */
     });
 
     button.addEventListener('touch', () => {
