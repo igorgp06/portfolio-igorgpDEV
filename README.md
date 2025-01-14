@@ -1,4 +1,4 @@
-# potifolio-igorgpDEV
+# portfolio-igorgpDEV
 
 Meu portfólio pessoal e profissional. Aqui você encontrará informações de como está organizada a estrutura do seu controle de versões, acompanhar o desenvolvimento do portfólio, ver os termos da licença, como entrar em contato comigo e ver os códigos do portfólio e acompanhar as mais recentes atualizações e notícias.
 
