@@ -37,3 +37,19 @@ section {
     font-weight: 700;
     text-align: center;
 }
+
+.default-button.disable-hover {
+    pointer-events: auto;
+    background-color: var(--plum);
+    color: black;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+}
+
+.default-button.disable-hover:hover {
+    background-color: var(--plum);
+    color: black;
+    box-shadow: none;
+    transform: none;
+}

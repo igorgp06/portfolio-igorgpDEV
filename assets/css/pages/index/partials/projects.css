@@ -22,7 +22,6 @@
 }
 
 .projects .card {
-    background-color: var(--floralWhite);
     padding: 1rem;
     max-width: 100%;
     height: 100%;
@@ -46,6 +45,13 @@
     height: auto;
     border-radius: 5px;
     overflow: hidden;
+}
+
+.projects .card-body {
+    border-radius: 15px;
+    background-color: var(--thistle);
+    max-height: 250px;
+    flex: none;
 }
 
 .projects .card .card-title {
@@ -73,6 +79,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     padding: 0.5rem;
+    margin: 0.3rem;
     border-radius: 5px;
     background-color: var(--plum);
     text-decoration: none;
@@ -115,5 +122,11 @@
     .projects .card .card-text {
         font-size: 1rem;
         font-weight: 425;
+    }
+
+    .projects .default-button {
+        font-weight: 1rem;
+        font-weight: 550;
+        margin: 0;
     }
 }

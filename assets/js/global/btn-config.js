@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const width = window.innerWidth;
         buttons.forEach(button => {
             if (width < 991) {
-                button.style.pointerEvents = 'none';
+                button.classList.add('disabled-hover');
             } else {
-                button.style.pointerEvents = 'auto';
+                button.classList.remove('disabled-hover');
             }
         });
     }
