@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* contact */
+
+.contact {
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--thistle);
+}
