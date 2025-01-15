@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const textAnimationSpan = document.querySelector('.animated-text');
-    const textArray = ["Desenvolvimento Web", "Soluções Criativas", "Otimizações Web", "E-Commerce", "Funcionalidade"];
+    const textArray = ["Web Development", "Soluções Criativas", "Otimizações Web", "E-Commerce", "Funcionalidade"];
     const typingDelay = 100;
     const erasingDelay = 100;
     const newTextDelay = 1000;

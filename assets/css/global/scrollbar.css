@@ -23,7 +23,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--floralWhite);
+    background: var(--plum);
 }
 
 ::-webkit-scrollbar-track:hover {

@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: var(--thistle);
+    background-color: var(--floralWhite);
 }
 
 .hero-subtitle {
@@ -36,6 +36,15 @@
     padding: 0;
     margin: 0.5rem 0 0.5rem 0;
     text-align: center;
+}
+
+.animated-text {
+    color: var(--mediumPurple);
+    font-size: 2.3rem;
+    font-weight: 550;
+    padding: 0;
+    margin: 0.5rem;
+    display: inline;
 }
 
 .hero-btn-container {

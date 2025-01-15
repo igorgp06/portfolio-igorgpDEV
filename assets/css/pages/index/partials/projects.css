@@ -6,14 +6,14 @@
     margin: 0 auto;
     padding: 1rem;
     height: auto;
-    min-height: 85vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: var(--floralWhite);
+    background-color: var(--thistle);
 }
 
 .projects .section-title {
@@ -45,13 +45,6 @@
     height: auto;
     border-radius: 5px;
     overflow: hidden;
-}
-
-.projects .card-body {
-    border-radius: 15px;
-    background-color: var(--thistle);
-    max-height: 250px;
-    flex: none;
 }
 
 .projects .card .card-title {
