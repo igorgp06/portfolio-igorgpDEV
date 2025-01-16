@@ -58,6 +58,11 @@
 }
 
 @media (max-width: 688px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .footer-text {
         font-size: 0.9rem;
         margin: 1rem 0 1rem 0;
@@ -73,11 +78,6 @@
 } 
 
 @media (max-width: 546px) {
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-    }
-
     .footer-text {
         font-size: 0.8rem;
         margin: 1rem 0 1rem 0;
