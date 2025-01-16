@@ -68,6 +68,10 @@
         margin: 1rem 0 1rem 0;
     }
 
+    .footer-text .destaque-dev {
+        font-size: 0.9rem;
+    }
+
     .footer .social-media-list {
         margin-right: 1rem;
     }
@@ -81,6 +85,10 @@
     .footer-text {
         font-size: 0.8rem;
         margin: 1rem 0 1rem 0;
+    }
+
+    .footer-text .destaque-dev {
+        font-size: 0.8rem;
     }
 
     .footer .social-media-list {
