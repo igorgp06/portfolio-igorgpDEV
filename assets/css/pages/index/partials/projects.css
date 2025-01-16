@@ -28,6 +28,7 @@
     border-radius: 20px;
     min-height: 325px;
     gap: 1rem;
+    background-color: var(--plum);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,7 +75,7 @@
     padding: 0.5rem;
     margin: 0.3rem;
     border-radius: 5px;
-    background-color: var(--plum);
+    background-color: var(--floralWhite);
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -82,8 +83,6 @@
 }
 
 .projects .default-button:hover {
-    color: white;
-    background-color: var(--mediumPurple);
     box-shadow: 2px 2px 0 var(--royalBlue);
     transform: scale(1.05);
 }
