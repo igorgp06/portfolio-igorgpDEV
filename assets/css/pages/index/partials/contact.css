@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-.contact-list {
+.contact .contact-list {
     color: black;
     font-size: 1.2rem;
     font-weight: 425;
@@ -59,33 +59,33 @@
     text-align: center;
 }
 
-.contact-list i {
+.contact .contact-list i {
     color: var(--mediumPurple);
     font-size: 1.5rem;
     margin: 0.2rem;
 }
 
-.contact-list span {
+.contact.contact-list span {
     color: black;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.social-media-list {
+.contact .social-media-list {
+    gap: 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.7rem;
 }
 
-.social-media-list i {
+.contact .social-media-list i {
     color: var(--plum);
     font-size: 1.6rem;
-    transition: all 0.3s ease-in-out;
     padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
 }
 
-.social-media-list i:hover {
+.contact .social-media-list i:hover {
     color: var(--mediumPurple);
     filter: drop-shadow(0 0 .1px var(--royalBlue));
 }
