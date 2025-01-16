@@ -168,3 +168,14 @@
     box-shadow: none;
     transition: all 0.5s ease-in-out;
 }
+
+@media (max-width: 991px) {
+    .contact .section-title {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact .contact-emphasis {
+        margin-top: 2rem;
+    }
+}
