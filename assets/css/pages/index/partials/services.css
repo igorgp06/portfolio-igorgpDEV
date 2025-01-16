@@ -14,6 +14,10 @@
     align-items: center;
     text-align: center;
     background-color: var(--floralWhite);
+    background-image: url(../../../../static/svgs/index/wave-haikei-services.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .services .card {
@@ -23,7 +27,7 @@
     border-radius: 20px;
     min-height: 325px;
     gap: 1rem;
-    background-color: var(--thistle);
+    background-color: var(--gainsboro);
     display: flex;
     flex-direction: column;
     align-items: center;
