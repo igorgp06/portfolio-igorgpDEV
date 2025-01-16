@@ -32,6 +32,8 @@
 
 .footer-text .destaque-dev {
     color: var(--floralWhite);
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .footer .social-media-list {
@@ -53,4 +55,39 @@
     font-size: 1.7rem;
     color: var(--floralWhite);
     filter: drop-shadow(0 0 .1px var(--royalBlue));
+}
+
+@media (max-width: 688px) {
+    .footer-text {
+        font-size: 0.9rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .footer .social-media-list {
+        margin-right: 1rem;
+    }
+
+    .footer .social-media-list i {
+        font-size: 1.4rem;
+    }
+} 
+
+@media (max-width: 546px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-text {
+        font-size: 0.8rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .footer .social-media-list {
+        margin-right: 1rem;
+    }
+
+    .footer .social-media-list i {
+        font-size: 1.2rem;
+    }
 }

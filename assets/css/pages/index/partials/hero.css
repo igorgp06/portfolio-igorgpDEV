@@ -33,15 +33,6 @@
     display: block;
 }
 
-.hero-description {
-    color: black;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0;
-    margin: 0.5rem 0 0.5rem 0;
-    text-align: center;
-}
-
 .animated-text {
     color: var(--mediumPurple);
     font-size: 2.3rem;
@@ -49,6 +40,15 @@
     padding: 0;
     margin: 0.5rem;
     display: inline;
+}
+
+.hero-description {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: center;
 }
 
 .hero-btn-container {
@@ -126,13 +126,13 @@
     .hero-subtitle {
         font-size: 2rem;
     }
+
+    .animated-text {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 992px) {
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
     .hero-left-content {
         text-align: center;
         margin-bottom: 2rem;
@@ -160,16 +160,20 @@
     .hero-subtitle {
         font-size: 1.8rem;
     }
+
+    .animated-text {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-with: 768px) {
     .hero-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: 500;
     }
 
-    .hero .animated-text {
-        font-size: 1.5rem;
+    .animated-text {
+        font-size: 1.8rem;
         font-weight: 500;
     }
 
@@ -180,15 +184,15 @@
 }
 
 @media (max-width: 576px) {
-    .hero-left-content .hero-title {
-        font-size: 2.2rem;
+    .hero-subtitle {
+        font-size: 1.5rem;
     }
 
-    .hero-left-content .hero-subtitle {
-        font-size: 1.8rem;
+    .animated-text {
+        font-size: 1.5rem;
     }
 
-    .hero-left-content .hero-description {
+    .hero-description {
         font-size: 0.9rem;
     }
 
@@ -206,6 +210,11 @@
     .hero .section-title {
         font-size: 1.8rem;
         margin-top: 0.3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 
     .animated-text {
