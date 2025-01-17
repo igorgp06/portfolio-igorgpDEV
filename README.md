@@ -49,8 +49,6 @@ Problemas/Bugs encontrados ao decorrer do desenvolvimento do projeto serão list
 
 - [x] Bug 7: a lógica geral dos botões está quebrada, fazendo com que o JavaScript não tenha o efeito desejado nos dispositivos mobile. Bug encontrado na versão 5.1, resolvido na versão 5.4.
 
-- [x] Bug 8: rolagem lateral causado por algo desconhecido (posteriormente descoberto que era por conta do AOS). Bug encontrado na versão 7.3, resolvido na versão 7.3.
-
 ## Licença
 
 Este repositório e tudo derivado do mesmo, sendo código ou imagens, está sob uma licença personalizada que permite apenas a **visualização** do código.   

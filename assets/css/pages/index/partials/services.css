@@ -34,6 +34,7 @@
     justify-content: space-between;
     text-align: center;
     overflow: hidden;
+    overflow-x: hidden;
     text-align: center;
     transition: all 0.5s ease-in-out;
 }

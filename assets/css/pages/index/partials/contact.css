@@ -76,13 +76,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 
 .contact .social-media-list i {
     color: var(--plum);
     font-size: 1.6rem;
     padding: 0.5rem;
+    overflow-y: hidden;
     transition: all 0.3s ease-in-out;
+}
+
+.contact .social-media-list a {
+    overflow-y: hidden;
 }
 
 .contact .social-media-list i:hover {
