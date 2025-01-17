@@ -29,6 +29,7 @@ Cada seção está sujeita à sua própria versão, sendo elas:
 - **5.0**: Seção projetos 
 - **6.0**: Seção contato.
 - **7.0**: Seção footer.
+- **8.0+**: Qualquer atualização, seja pacth, fix, update e etc.
 
 ## Bugs
 
@@ -47,6 +48,8 @@ Problemas/Bugs encontrados ao decorrer do desenvolvimento do projeto serão list
 - [x] Bug 6: o botão na seção `hero` tem um estado ativo após o clique nas versões mobile. Bug encontrado na versão 4.3, resolvido na versão 4.5.
 
 - [x] Bug 7: a lógica geral dos botões está quebrada, fazendo com que o JavaScript não tenha o efeito desejado nos dispositivos mobile. Bug encontrado na versão 5.1, resolvido na versão 5.4.
+
+- [x] Bug 8: rolagem lateral causado por algo desconhecido (posteriormente descoberto que era por conta do AOS). Bug encontrado na versão 7.3, resolvido na versão 7.3.
 
 ## Licença
 

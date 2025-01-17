@@ -7,6 +7,12 @@
     padding: 0;
     text-decoration: none;
     border: none;
+    box-sizing: border-box;
+}
+
+[data-aos] {
+    overflow-x: hidden !important;
+    transform: none !important;
 }
 
 section:not(:first-of-type) {
@@ -29,6 +35,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+::before, ::after {
+    box-sizing: border-box;
 }
 
 .section-title {
