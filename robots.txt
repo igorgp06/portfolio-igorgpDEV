@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://igorgp06.github.io/portifolio-igorgpDEV/sitemap.xml
+https://igdeveloper.com.br/sitemap.xml

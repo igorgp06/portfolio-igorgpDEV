@@ -14,7 +14,7 @@
     align-items: center;
     padding: 1rem;
     position: relative;
-    box-shadow: 2px 2px 5px rgba(rgba(0, 0, 0, 0.125));
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.125);
 }
 
 .navbar .logo {
@@ -79,10 +79,12 @@
     padding: 0.5rem;
     border-radius: 5px;
     font-weight: 575;
+    transition: all 0.3s ease-in-out;
 }
 
-.navbar-links li, a {
-    transition: all 0.3s ease-in-out;
+.navbar-links li:hover {
+    transform: scale(1.05);
+    background-color: white;
 }
 
 .navbar-links li:hover {
