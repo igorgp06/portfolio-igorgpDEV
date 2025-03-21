@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', function () {
             closeIcon.style.display = 'none';
             if (window.innerWidth <= 950) {
                 toggleButton.style.display = 'flex';
-            } else [
+            } else {
                 toggleButton.style.display = 'none'
-            ]
-        })
+            }
+        });
     });
 
     window.addEventListener('resize', resetMenu);

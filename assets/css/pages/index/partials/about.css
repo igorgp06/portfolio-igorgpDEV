@@ -83,7 +83,7 @@
 }
 
 .about .about-emphasis {
-    color: var(--mediumPurple);
+    color: var(--floralWhite);
     font-size: 2rem;
     font-weight: 700;
     margin: 0.5rem;
@@ -117,7 +117,7 @@
 }
 
 .about-soft-skills i {
-    color: var(--royalBlue);
+    color: var(--mediumPurple);
 }
 
 @media (max-width: 991px) {

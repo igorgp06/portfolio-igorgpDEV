@@ -85,11 +85,6 @@
 .navbar-links li:hover {
     transform: scale(1.05);
     background-color: white;
-}
-
-.navbar-links li:hover {
-    transform: scale(1.05);
-    background-color: white;
     & a {
         color: var(--mediumPurple);
         font-weight: 675;

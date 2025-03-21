@@ -9,7 +9,7 @@
 }
 
 .footer-container {
-    min-height: 5vh;
+    min-height: 3vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
