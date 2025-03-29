@@ -5,11 +5,11 @@
 .footer {
     margin: 0;
     padding: 0;
-    background-color: var(--mediumPurple);
+    background-color: var(--floralWhite);
 }
 
 .footer-container {
-    min-height: 3vh;
+    min-height: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .footer-text {
-    margin: 1rem 0 1rem 4rem;
+    margin: 0.5rem 0 0.5rem 2rem;
     color: black;
     font-size: 1rem;
     font-weight: 500;
@@ -31,13 +31,20 @@
 }
 
 .footer-text .destaque-dev {
-    color: var(--floralWhite);
+    color: var(--mediumPurple);
     font-weight: 500;
     font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-text .destaque-dev:hover {
+    color: var(--royalBlue);
+    filter: drop-shadow(0 0 .1px var(--royalBlue));
 }
 
 .footer .social-media-list {
-    margin-right: 4rem;
+    margin-right: 2rem;
     gap: 0.7rem;
     display: flex;
     justify-content: center;
@@ -46,15 +53,14 @@
 
 .footer .social-media-list i {
     margin: 0.5rem;
-    color: var(--gainsboro);
+    color: var(--plum);
     font-size: 1.6rem;
     transition: all 0.4s ease-in-out;
 }
 
 .footer .social-media-list i:hover {
     font-size: 1.7rem;
-    color: var(--floralWhite);
-    filter: drop-shadow(0 0 .1px var(--royalBlue));
+    color: var(--mediumPurple);
 }
 
 @media (max-width: 688px) {
