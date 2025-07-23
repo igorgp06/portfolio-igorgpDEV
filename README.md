@@ -1,3 +1,13 @@
+> [!WARNING]
+>  - Este site foi **DESCONTINUADO!** Ele não receberá mais atualizações e várias de suas ***funcionalidades** estão **indisponiveis.** Você ainda pode ver ele através do GitHub pages e/ou
+> clicando [aqui](https://igorgp06.github.io/portfolio-igorgpDEV/).    
+
+> [!IMPORTANT]
+>  - Para ver a **versão** mais **recente** do projeto, acompanhe diretamente [este repositório](https://github.com/igorgp06/portfolio-IgorgpDEV-2) ou acesse o site
+> clicando [aqui](https://igdeveloper.com.br).      
+
+
+
 # portfolio-igorgpDEV
 
 Meu portfólio pessoal e profissional. Aqui você encontrará informações de como está organizada a estrutura do seu controle de versões, acompanhar o desenvolvimento do portfólio, ver os termos da licença, como entrar em contato comigo e ver os códigos do portfólio e acompanhar as mais recentes atualizações e notícias.
